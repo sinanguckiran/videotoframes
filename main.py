@@ -15,7 +15,7 @@ def extract_frames(movie, interval, imgdir):
         clip.save_frame(imgpath, t)
 
 
-movie = r"C:\Users\sinan\Desktop\videos\VID-20240321-WA0001.mp4" # Use raw string or escape backslashes
-imgdir = r"C:\Users\sinan\Desktop\frames"
+movie = r"" # add the path of your video clip
+imgdir = r"./pngs"
 interval = 1  # Interval in seconds
 extract_frames(movie, interval, imgdir)
